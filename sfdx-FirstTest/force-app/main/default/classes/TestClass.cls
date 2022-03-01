@@ -1,5 +1,6 @@
 @IsTest
-public with sharing class TestClass {
+public with sharing class TestClass
+{
     @IsTest
     static void TestDeleteAccountWithOneOpportunity(){
         Account acc = TestFactory.getAccount('Test Account', true);
